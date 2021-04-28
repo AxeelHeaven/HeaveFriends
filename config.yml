@@ -1,0 +1,19 @@
+# Available languages EN (English), ES (Spanish)
+language: EN
+
+# In which servers the commands are blocked
+disable_servers:
+ - prelobby
+ - auth
+
+settings:
+  # Maximum pending requests per user
+  maximum_friend_requests: 50
+  # The permit and the number of friends you can have
+  # Permission example: heaven.maxfriends.default
+  # Unlimited friends permission: heaven.maxfriends.*
+  permissions:
+    titanplus: 50
+    titan: 30
+    vip: 20
+    default: 10
